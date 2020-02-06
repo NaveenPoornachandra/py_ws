@@ -1,7 +1,6 @@
 import logging
 import sys
 
-
 LEVELS = {'debug': logging.DEBUG,
           'info': logging.INFO,
           'warning': logging.WARNING,
