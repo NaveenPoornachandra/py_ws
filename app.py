@@ -13,8 +13,7 @@ if len(sys.argv) > 1:
     level = LEVELS.get(level_name, logging.NOTSET)
     logging.basicConfig(level=level)
 
-for _ in range(0,100000):
-    
+while(True):
     logging.debug('This is a debug message')
     logging.info('This is an info message')
     logging.warning('This is a warning message')
